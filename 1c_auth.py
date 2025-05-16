@@ -114,8 +114,8 @@ def download_file(session, url, output_folder='downloads'):
         return None
 
 def main():
-    username = "14112-KR"  # Замените на ваш логин
-    password = "057adb27"  # Замените на ваш пароль
+    username = "***"  # Замените на ваш логин
+    password = "***"  # Замените на ваш пароль
     
     session = login_to_1c(username, password)
     
